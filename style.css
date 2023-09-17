@@ -104,3 +104,34 @@ body{
 .switch input:nth-child(4):checked ~ .wrapper{
     left: -2700px;
 }
+
+.caption{
+    color: #FFFFFF;
+    font-size: 20px;
+    transition: .1s;
+    width: 3600px;
+    margin-top: -10px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.text-box{
+    width: 900px;
+}
+
+.switch input:nth-child(1):checked ~ .caption{
+    left: 0;
+}
+
+.switch input:nth-child(2):checked ~ .caption{
+    left: -900px;
+}
+
+.switch input:nth-child(3):checked ~ .caption{
+    left: -1800px;
+}
+
+.switch input:nth-child(4):checked ~ .caption{
+    left: -2700px;
+}
