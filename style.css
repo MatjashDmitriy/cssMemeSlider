@@ -135,3 +135,147 @@ body{
 .switch input:nth-child(4):checked ~ .caption{
     left: -2700px;
 }
+
+@media (max-width: 1024px) {
+    .container {
+        width: 900px;
+        height: 700px;
+    }
+
+    .switch {
+        width: 700px;
+    }
+
+    .wrapper{
+        width: 2800px;
+        height: 393.75px;
+    }
+
+    .text-box p{
+        font-size: 16px;
+    }
+
+    .switch input:nth-child(2):checked ~ .wrapper{
+        left: -700px;
+    }
+    
+    .switch input:nth-child(3):checked ~ .wrapper{
+        left: -1400px;
+    }
+    
+    .switch input:nth-child(4):checked ~ .wrapper{
+        left: -2100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 600px;
+        height: 400px;
+    }
+
+    .switch {
+        width: 500px;
+    }
+
+    .text-box p{
+        font-size: 12px;
+    }
+
+    .wrapper{
+        width: 2000px;
+        height: 281.25px;
+    }
+
+    .switch input:nth-child(2):checked ~ .wrapper{
+        left: -500px;
+    }
+    
+    .switch input:nth-child(3):checked ~ .wrapper{
+        left: -1000px;
+    }
+    
+    .switch input:nth-child(4):checked ~ .wrapper{
+        left: -1500px;
+    }  
+}
+
+@media (max-width: 530px) {
+    .container {
+        width: 400px;
+        height: 300px;
+    }
+
+    .switch {
+        width: 350px;
+    }
+
+    .wrapper{
+        width: 1400px;
+        height: 196.88px;
+    }
+
+    .switch input:nth-child(2):checked ~ .wrapper{
+        left: -350px;
+    }
+    
+    .switch input:nth-child(3):checked ~ .wrapper{
+        left: -700px;
+    }
+    
+    .switch input:nth-child(4):checked ~ .wrapper{
+        left: -1050px;
+    }  
+
+    .caption {
+        margin-top: 0;
+    }
+
+    .controls {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        width: 300px;
+        height: 270px;
+    }
+
+    .switch {
+        width: 280px;
+    }
+
+    .text-box p{
+        font-size: 10px;
+    }
+
+    .wrapper{
+        width: 1120px;
+        height: 157.50px;
+    }
+
+    .switch input:nth-child(2):checked ~ .wrapper{
+        left: -280px;
+    }
+    
+    .switch input:nth-child(3):checked ~ .wrapper{
+        left: -560px;
+    }
+    
+    .switch input:nth-child(4):checked ~ .wrapper{
+        left: -840px;
+    }  
+
+    .caption {
+        margin-top: 0;
+    }
+
+    .controls {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        justify-content: center;
+    }
+}
