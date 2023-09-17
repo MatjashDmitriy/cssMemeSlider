@@ -24,3 +24,28 @@ body{
 .wrapper{
     display: flex;
 }
+
+.switch input{
+    display: none;
+}
+
+.controls {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    z-index: 100;
+}
+
+.controls label{
+    width: 10px;
+    height: 10px;
+    background-color: #6ea3ca;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.controls label:hover{
+    background-color: #FFFFFF;
+}
